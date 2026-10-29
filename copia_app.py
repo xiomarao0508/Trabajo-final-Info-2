@@ -27,7 +27,6 @@ def mostrar_aerogenerador(aerogenerador) -> None:
 
     print()
 
-
 def consultar_parque(parque: ParqueEolico) -> None:
     """Muestra el estado completo del parque."""
     print("\n--- Estado del parque ---")
@@ -46,7 +45,6 @@ def consultar_parque(parque: ParqueEolico) -> None:
 
         for aerogenerador in area.aerogeneradores:
             mostrar_aerogenerador(aerogenerador)
-
 
 def consultar_area(parque: ParqueEolico) -> None:
     """Consulta un área concreta."""
@@ -78,7 +76,6 @@ def consultar_area(parque: ParqueEolico) -> None:
 
     for aerogenerador in area.aerogeneradores:
         mostrar_aerogenerador(aerogenerador)
-
 
 def consultar_aerogenerador(parque: ParqueEolico) -> None:
     """Consulta un aerogenerador concreto."""
